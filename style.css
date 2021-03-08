@@ -1,0 +1,10 @@
+body {
+font-family: Helvetica;
+}
+
+
+h1 {
+    text-align: center;
+    font-style: regular;
+    padding: 20px;
+}
