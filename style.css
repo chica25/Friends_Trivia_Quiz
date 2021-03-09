@@ -5,7 +5,6 @@ body {
 
 #banner-img {
     background-image: url(images/friends_banner.png);
-
     height: 900px;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,22 +12,64 @@ body {
     
 }
 
-h1 {
+/* quiz questions */
+.title {
     text-align: center;
-    font-style: thin;
-    padding: 20px;
+    font-style: bold;
 }
 
+/* You are corect */
 .percent {
     text-align: center;
-    font-style: light;
-    font-size: 42px;
+    font-style: normal;
+    font-size: 40px;
 }
 
-
 span {
-    color: purple;
-    font-size: 48px;
-    font-style: light;
+    color: #fe2c00;
+    font-size: 40px;
+}
 
+.my-1 {
+    margin: 20px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-style: light;
+    font-size: 44px;
+    padding: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* questions */
+p {
+    font-size: 32px;
+    font-style: bold;
+}
+
+/* answers */
+label {
+    font-size: 24px;
+}
+
+.submit-btn {
+cursor: pointer;
+color: yellow;
+ border: 0;
+background:rgb(230, 76, 76);
+padding: 0.6rem;
+color: white;
+margin: 1rem;
+width: auto;
+text-transform: uppercase;
+cursor: pointer;
+text-align: right
 }
