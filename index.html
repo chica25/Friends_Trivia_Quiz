@@ -9,14 +9,16 @@
 </head>
     <body>
         <!-- title -->
+        <div class="result"> <!-- add display: none; on css-->
         <h1 class="title">Friends Trivia Quiz</h1>
-                    <div class="intro">
+         <h2 class="percent">You are <span class="text">0%</span> Correct</h2>
+
+                    <div class="container">
                     <!-- quiz section -->
                     <!-- form question #1-->
-                    <form  class="form text-light">
+                    <form  class="form">
                                 <div class="my-1">
-                                    <p class="question-1">1. What year did Friends first premiere?</p>
-                                        
+                                    <p class="question-1">1. What year did Friends first premiere?</p>                                       
                                         <div class="form-check-">
                                         <input type="radio" name="q1" value="A" checked>
                                         <label  class="form-label">1990</label>
@@ -40,7 +42,7 @@
                                         <p class="question-2">2. What is the name of Phoebe’s twin sister?</p>
                                     
                                         <div class="form-check">
-                                        <input type="radio" name="q2" value="A" checked>
+                                        <input type="radio" name="q2" value="A">
                                         <label class="form-label">Ursula</label>
 
                                         <div class="form-check">
@@ -48,7 +50,7 @@
                                         <label class="form-label">Jane</label>
                             
                                         <div class="form-check">
-                                        <input type="radio" name="q2" value="C">
+                                        <input type="radio" name="q2" value="C" checked>
                                         <label class="form-label">Charlotte</label>
                                 
                                         <div class="form-check">
@@ -115,7 +117,7 @@
                 
                             <div class="form-check">
                             <input type="radio" name="q5" value="C">
-                            <label class="form-label">Toronto</label>
+                            <label class="form-label">Los Angeles</label>
                     
                             <div class="form-check">
                             <input type="radio" name="q5" value="D">
@@ -126,10 +128,10 @@
 
                             <!-- question #6-->
                             <div class="my-6">
-                                <p class="question-6">6. Rachel goes on Ross’ honeymoon by herself where</p>
+                                <p class="question-6">6. Rachel goes on Ross’ honeymoon by herself where?</p>
                             
                                 <div class="form-check">
-                                <input type="radio" name="q6" value="A" checked>
+                                <input type="radio" name="q6" value="A"
                                 <label class="form-label">Athens, Greece.</label>
 
                                 <div class="form-check">
@@ -141,7 +143,7 @@
                                 <label class="form-label">Paris, France.</label>
                         
                                 <div class="form-check">
-                                <input type="radio" name="q6" value="D">
+                                <input type="radio" name="q6" value="D" checked>
                                 <label class="form-label">Buenos Aires, Argentina.</label>
                             </div>
                         </div>
@@ -173,12 +175,12 @@
                                 <p class="question-8">8. What was the name of Chandler and Ross’ college band?</p>
                             
                                 <div class="form-check">
-                                <input type="radio" name="q8" value="A" checked>
+                                <input type="radio" name="q8" value="A">
                                 <label class="form-label">Way, No Way.</label>
 
                                 <div class="form-check">
-                                <input type="radio" name="q8" value="B" >
-                                <label class="form-label">80s Crews.</label>
+                                <input type="radio" name="q8" value="B" checked>
+                                <label class="form-label">80s Crew.</label>
                     
                                 <div class="form-check">
                                 <input type="radio" name="q8" value="C">
@@ -233,8 +235,8 @@
                                 <label class="form-label">2000</label>
                             </div>
                         </div>
-
-                        <div class="text-center">
+                            <br>
+                        <div class="text-center">   
                             <input type="submit" class="submit-btn">
                         </div>
                     </form>

@@ -8,3 +8,9 @@ h1 {
     font-style: regular;
     padding: 20px;
 }
+
+.percent {
+    text-align: center;
+    font-style: light;
+    font-size: 42px;
+}
