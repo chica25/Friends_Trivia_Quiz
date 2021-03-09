@@ -2,6 +2,13 @@ body {
 font-family: Helvetica;
 }
 
+#banner-img {
+    background-image: url(images/friends_banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
 
 h1 {
     text-align: center;
