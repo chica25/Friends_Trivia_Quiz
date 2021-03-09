@@ -16,9 +16,14 @@ form.addEventListener('submit', e => {
         }
       });
 
-    //  console.log(score);show results on page
     scrollTo(0 ,0);
     result.querySelector('span').textContent = `${score}%`;
-    // result.classList.remove('')
+
+    let output = 0;
+    const timer = setInterval(() => {
+        result.querySelector('span').textContent = `${output}%`;
+        output == score ? clearInterval(timer) : output++;
+    }, 10);
+  
 });
 
