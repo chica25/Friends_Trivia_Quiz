@@ -1,5 +1,6 @@
 body {
-font-family: Helvetica;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 #banner-img {
@@ -14,7 +15,7 @@ font-family: Helvetica;
 
 h1 {
     text-align: center;
-    font-style: regular;
+    font-style: thin;
     padding: 20px;
 }
 
